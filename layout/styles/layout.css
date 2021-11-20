@@ -129,7 +129,7 @@ h1, h2, h3, h4, h5, h6, .heading {
 --------------------------------------------------------------------------------------------------------------- */
 #callback{padding:30px 0;}
 
-#callback > div{display:block; max-width:50%; margin:0 auto; padding:30px; text-align:center;}
+#callback > div{display:block; max-width:60%; margin:0 auto; padding:30px; text-align:center;}
 #callback input, #callback button{border:1px solid;}
 #callback input{display:block; width:100%; margin:0 0 15px 0; padding:8px 15px;}
 #callback button{margin:0 auto; padding:8px 18px 10px; text-transform:uppercase; cursor:pointer;}
@@ -407,11 +407,11 @@ input:focus, textarea:focus, *:required:focus{border-color:#9099AA !important;}
 
 /* Rows */
 .row0, .row0 a{color:#FFFFFF;}
-.row1{background-color:rgba(83,74,161,.5);/* #9099AA */}
+.row1{background-color:rgba(0,145,192,.5);/* #9099AA */}
 .row2{color:#474747; background-color:#EFEFEF;}
 .row3{color:#474747; background-color:#FFFFFF;}
-.row4{color:#DFDFDF; background-color:#463e8f;}
-.row5, .row5 a{color:#5F6F89; background-color:#2A1B3D;}
+.row4{color:#DFDFDF; background-color:#0093c2;}
+.row5, .row5 a{color:#fff; background-color:#006bc2;}
 
 
 /* Header */
@@ -444,7 +444,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#9099AA !important;}
 /* Navigation */
 #mainav{}
 #mainav li a{color:inherit;}
-#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#E98074; background-color:inherit;}
+#mainav .active a, #mainav a:hover, #mainav li:hover > a{ background-color:inherit;}
 #mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(144,153,170,.5);/* #9099AA */ border-color:rgba(144,153,170,1);/* #9099AA */}
 #mainav li li:hover > a, #mainav .active .active > a{color:#E98074; background-color:#9099AA;}
 #mainav form select{color:#474747; background-color:#FFFFFF;}
@@ -562,3 +562,23 @@ px
 
 /*random */
 
+.iframe-container{
+	position: relative;
+	width: 100%;
+	padding-bottom: 56.25%; 
+	height: 0;
+  }
+  .iframe-container iframe{
+	position: absolute;
+	top:0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+  }
+
+  textarea {
+	width: 100%;
+	border: 1px solid #ccc;
+	padding: 8px 15px;
+	
+  }
